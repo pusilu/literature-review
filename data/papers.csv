@@ -1,0 +1,21 @@
+id,year,title,status,venue,doi,tags,verification,url,notes
+1,2022,High-Resolution Image Synthesis with Latent Diffusion Models,正式出版,CVPR 2022,10.1109/CVPR52688.2022.01042,扩散基础|生成模型,真实,https://doi.org/10.1109/CVPR52688.2022.01042,用于说明潜空间扩散基础，并非专门的角色一致性论文
+2,2022,An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion,预印本/会议,arXiv 2022 · ICLR 2023,,个性化|文本嵌入,真实,https://arxiv.org/abs/2208.01618,学习新文本嵌入的概括与论文一致；无独立出版 DOI
+3,2023,DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation,正式出版,CVPR 2023,10.1109/CVPR52729.2023.02155,个性化|微调,真实,https://doi.org/10.1109/CVPR52729.2023.02155,少样本微调和类别先验保持的描述准确
+4,2023,Multi-Concept Customization of Text-to-Image Diffusion,正式出版,CVPR 2023,10.1109/CVPR52729.2023.00192,多概念|参数高效,真实,https://doi.org/10.1109/CVPR52729.2023.00192,Custom Diffusion；只更新少量交叉注意力参数并支持多概念
+5,2023,IP-Adapter: Text Compatible Image Prompt Adapter for Text-to-Image Diffusion Models,预印本,arXiv 2023,,适配器|图像提示,真实,https://arxiv.org/abs/2308.06721,解耦文本与图像交叉注意力；无独立出版 DOI
+6,2024,PhotoMaker: Customizing Realistic Human Photos via Stacked ID Embedding,正式出版,CVPR 2024,10.1109/CVPR52733.2024.00825,身份嵌入|人像,真实,https://doi.org/10.1109/CVPR52733.2024.00825,堆叠身份嵌入与多参考图描述准确
+7,2024,InstantID: Zero-shot Identity-Preserving Generation in Seconds,预印本,arXiv 2024,,零样本|身份保持,真实,https://arxiv.org/abs/2401.07519,单张人脸身份特征和关键点条件；无独立出版 DOI
+8,2024,Training-Free Consistent Text-to-Image Generation,正式出版,ACM TOG 43(4) · SIGGRAPH 2024,10.1145/3658157,训练免|跨图一致性,软幻觉修正,https://doi.org/10.1145/3658157,ConsiStory 是方法名；第一轮曾把它并入正式题名
+9,2024,StoryDiffusion: Consistent Self-Attention for Long-Range Image and Video Generation,正式出版,NeurIPS 2024,10.52202/079017-3501,故事生成|自注意力,软幻觉修正,https://doi.org/10.52202/079017-3501,第二轮仍按 arXiv 引用，遗漏正式会议状态
+10,2024,StoryMaker: Towards Holistic Consistent Characters in Text-to-Image Generation,预印本,arXiv 2024,,多条件|故事生成,真实,https://arxiv.org/abs/2409.12576,人脸、角色裁剪图、分割掩码与姿态条件的概括有原文依据
+11,2025,CharacterFactory,正式出版,IEEE TIP 2025,10.1109/TIP.2025.3558668,GAN|身份嵌入,真实,https://doi.org/10.1109/TIP.2025.3558668,GAN 学习身份嵌入并采样新角色
+12,2025,CharaConsist,正式出版,ICCV 2025,10.1109/ICCV51701.2025.01490,注意力|token 合并,真实,https://doi.org/10.1109/ICCV51701.2025.01490,点跟踪注意力与自适应 token merging 的描述准确
+13,2025,UniversalBooth,正式出版,ICCV 2025,10.1109/ICCV51701.2025.01702,模型无关|跨扩散架构,真实,https://doi.org/10.1109/ICCV51701.2025.01702,模型无关和跨扩散架构迁移的描述准确
+14,2025,DynamicID,正式出版,ICCV 2025,10.1109/ICCV51701.2025.00982,多身份|面部编辑,真实,https://doi.org/10.1109/ICCV51701.2025.00982,支持单 ID 和多 ID，强调身份保真与面部可编辑性
+15,2025,IDProtector: An Adversarial Noise Encoder to Protect Against ID-Preserving Image Generation,正式出版,CVPR 2025,10.1109/CVPR52734.2025.00287,隐私防护|对抗扰动,真实,https://doi.org/10.1109/CVPR52734.2025.00287,用于说明身份复制风险和防护研究
+16,2026,CoDi,会议录,ICLR 2026,,身份迁移|细节优化,真实,https://openreview.net/pdf/52275dc22f0bfe50b8e6462b6df54bfa983ab801.pdf,Identity Transport 与 Identity Refinement 对应迁移和细节优化；无独立 DOI
+17,2026,Consistent Text-to-Image Generation via Scene De-Contextualization,会议录,ICLR 2026,,场景解耦|训练免,真实,https://openreview.net/pdf/0d93aca1a1e2b1e7a4bf128c275500ca78a5426e.pdf,通过削弱主体与场景的固有相关性缓解身份漂移；无独立 DOI
+18,2026,LCG,预印本,arXiv 2026,,长序列|多角色,真实,https://arxiv.org/abs/2606.26171,明确包含 6—20 幅图像序列和多角色长上下文设置；无独立 DOI
+19,2026,ViStoryBench,预印本/正式收录,arXiv 2025 · CVPR 2026,,评测基准|视觉故事,软幻觉修正,https://arxiv.org/abs/2505.24862,第二轮把它纳入 2026 阶段可以成立，但参考文献信息过简
+20,2026,DSH-Bench,正式出版,ECCV 2026,10.1007/978-3-032-37577-3_20,评测基准|数据集,真实,https://doi.org/10.1007/978-3-032-37577-3_20,58 个细分类别、19 种模型的表述与论文记录一致
